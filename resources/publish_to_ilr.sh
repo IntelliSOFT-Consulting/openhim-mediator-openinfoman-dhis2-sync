@@ -201,7 +201,7 @@ DXF=`echo $DXF | $XMLLINT --c14n -`
 
 
 #Create Care Services Request Parameteres
-GROUPCODES=$($PRINTF "<group>%s</group>" "${GROUPCODES[@]}")
+GROUPCODES=$($PRINTF "<groupCode>%s</groupCode>" "${GROUPCODES[@]}")
 LEVELS=$($PRINTF "<level>%s</level>" "${LEVELS[@]}")
 
 CSR="<csd:requestParams xmlns:csd='urn:ihe:iti:csd:2013'>
