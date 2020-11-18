@@ -59,7 +59,7 @@ module.exports = (grunt) ->
     mochacli:
       options:
         reporter: 'spec'
-        compilers: ['coffee:coffee-script/register']
+        compilers: ['coffee:coffeescript/register']
         env:
           NODE_ENV: 'test'
           NODE_TLS_REJECT_UNAUTHORIZED: 0
